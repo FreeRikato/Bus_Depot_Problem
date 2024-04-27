@@ -1,0 +1,33 @@
+- [x] Turn algorithms inside the python notebook into functions - March 18
+    - [x] Rupkatha: 20 algorithms -> function - March 17
+    - [x] Aravind: 32 algorithms -> function - March 17
+    - [x] Test each refactored function to ensure it performs as expected - March 18
+- [ ] Populate data for training of the model - April 24
+    - [ ] Generate different total cost matrices using the experimental design - April 23
+    - [ ] Calculate the cost for each total cost matrices using the 52 refactored functions - April 24
+    - [ ] Structure the generated data for training dataset in a suitable form for the ANN - April 24
+- [ ] Design model architecture for the ANN (pick a pre-trained model) - April 30
+    - [ ] Research and decide on different dimensionlity reduction that could be applied to the total cost
+matrices - April 28
+    - [ ] Come up with initial ANN architecture, including the input layer (after dimensionlity reduction/encoding
+layer), hidden layers, activation functions, and the output layer - April 29
+    - [ ] Select loss function, regularization techniques and other hyperparameters - April 30
+    - [ ] (Optional) Try using a pre trained model for the problem - April 30
+- [ ] Fit the model to the data and make predictions - May 6
+    - [ ] Preprocess the data according to the requisites of the model architecture - May 2
+    - [ ] Train the model on the training dataset, monitoring convergence and overfitting - May 4
+    - [ ] Start predictions on a valdation set to get an initial idea of the model's architecture - May 6
+- [ ] Evaluate the model - May 10
+    - [ ] Perform evaluation of the model using various metrics suitable for the problem - May 8
+    - [ ] Analyze the reults, identifying aread of improvements through visualization - May 10
+- [ ] Improve through experimentation of the model - May 14
+    - [ ] Experiment with different architecture, hyperparamters, and dimenisonlity reduction methods based on the initial evaluation - May 12
+    - [ ] Re-train and Re-evaluate the model after each significant change - May 13
+    - [ ] Finalize the most effective model based on the performance metrics - May 14
+- [ ] Model Deployment - May 16
+- [ ] Front end + Deployment - May 20
+    - [ ] Design the back end using Node.js integrating the ONNX model into the backend - May 22
+    - [ ] Develop the front end using HTML and Tailwind CSS - May 23
+    - [ ] Test the website on user experience and model integration - May 24
+    - [ ] Deploy the website, monitor its performance and look for improvements (Netlify/Vercel/Heroku/DDNS) - May 24
+ 
